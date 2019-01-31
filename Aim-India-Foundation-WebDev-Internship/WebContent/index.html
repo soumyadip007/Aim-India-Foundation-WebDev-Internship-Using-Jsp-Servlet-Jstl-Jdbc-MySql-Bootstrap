@@ -1,10 +1,432 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
+<html lang="en" dir="ltr">
 
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Aim India Foundation</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- local links -->
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <!-- .......................... Header start ........................... -->
+    <header>
+      <!-- .......................... Navbar start ......................... -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              <img src="assets/images/logo.svg" alt="logo" class="img-responsive">
+            </a>
+            <h1 class="navbar-brand">AIM INDIA FOUNDATION</h1>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Home</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">About
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Organization</a></li>
+                  <li><a href="#">Team</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Causes
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Environment</a></li>
+                  <li><a href="#">Education</a></li>
+                  <li><a href="#">Health care</a></li>
+                  <li><a href="#">Relief to poor</a></li>
+                  <li><a href="#">Women empowerment</a></li>
+                  <li><a href="#">Awareness</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- .......................... Navbar end ........................... -->
+      <div id="below_nav" class="container-fluid">
+        <div class="row">
+          <div class="col-md-10">
+            <div class="social">
+              <a href="#"><i style="font-size: 20px; color: #2d2d30;" class="fab fa-facebook-f"></i></a>
+              <a href="#"><i style="font-size: 20px; color: #2d2d30;" class="fab fa-twitter"></i></a>
+              <a href="#"><i style="font-size: 20px; color: #2d2d30;" class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i style="font-size: 20px; color: #2d2d30;" class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="donate">
+              <a href="#" class="btn" role="button">Donate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- .......................... Header end ............................. -->
+
+
+
+    <!-- .......................... Main start ............................. -->
+    <main>
+      <!-- .......................... Section 1 start ...................... -->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="../assets/images/Causes/environment.jpeg" alt="Environment" width="100%" height="100vh">
+            <div class="carousel-caption">
+              <h3>Environment</h3>
+              <p>Contributing significantly for eco-development, habitat promotion and environmental management.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="../assets/images/Causes/education.jpeg" alt="Education" width="100%" height="100vh">
+            <div class="carousel-caption">
+              <h3>Education</h3>
+              <p>Our education programmes are designed for children who have been born in deprived communities to find hope and meaning in life.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="../assets/images/Causes/health care.jpeg" alt="Health Care" width="100%" height="100vh">
+            <div class="carousel-caption">
+              <h3>Health Care</h3>
+              <p>Estimates suggest that every day, more than 6,000 under-fives die in India and more than half of these deaths are caused by malnutrition.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="../assets/images/Causes/relief to poor.jpeg" alt="Relief To Poor" width="100%" height="100vh">
+            <div class="carousel-caption">
+              <h3>Relief To Poor</h3>
+              <p>Every individual also deserves dignity, we ensure the same by providing them respect, human touch, free food and dry ration.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="../assets/images/Causes/women empowerment.jpeg" alt="Women Empowerment" width="100%" height="100vh">
+            <div class="carousel-caption">
+              <h3>Women Empowerment</h3>
+              <p>Aim India Foundation’s ‘Awakening Women’s Soul’ focuses on empowering women of all age groups, by proving basic resources and strengthening their skills to help them maintain a healthy lifestyle, and regain stability and positivity.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="../assets/images/Causes/awareness.jpeg" alt="Awareness" width="100%" height="100vh">
+            <div class="carousel-caption">
+              <h3>Awareness</h3>
+              <p>We conduct awareness lectures and seminars for companies, educational institutes, housing societies, service clubs, other NGO’s etc.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+      <!-- .......................... Section 1 end  ....................... -->
+
+
+      <!-- .......................... Wellcome start  ...................... -->
+      <div id="wellcome" class="container text-center">
+        <h2 class="text-center">Wellcome to our Charity</h2>
+        <p><em>Make the world a better place!</em></p>
+        <p>Registered as a non-governmental organisation to better pursue its agenda
+          of working towards providing opportunities and enabling conditions for
+          the underprivileged people of India for better quality of life.</p><br>
+        <div class="row">
+          <div class="col-sm-4">
+            <p class="text-center"><strong>Vision</strong></p><br>
+            <a href="#demo">
+              <img src="../assets/images/Wellcome/vision.jpeg" class="img-circle person" alt="Vision" width="255" height="255">
+            </a>
+            <div id="demo">
+              <p>Aim India Foundation is leading and most trusted NGO committed
+                to build sustainable, healthy and productive communities in India.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <p class="text-center"><strong>Belief</strong></p><br>
+            <a href="#demo2">
+              <img src="../assets/images/Wellcome/belief.jpeg" class="img-circle person" alt="Belief" width="255" height="255">
+            </a>
+            <div id="demo2">
+              <p>Every Indian has the right to realize their potential, and to
+                live free of poverty in a secure and more equitable world.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <p class="text-center"><strong>We</strong></p><br>
+            <a href="#demo3">
+              <img src="../assets/images/Wellcome/we.jpeg" class="img-circle person" alt="We" width="255" height="255">
+            </a>
+            <div id="demo3">
+              <p>We are a group of professionals amalgamated to provide opportunities
+                to the underprivileged people in India.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- .......................... Wellcome end  ........................ -->
+
+      <!-- ..........................BE a part start  ...................... -->
+      <div id="be-a-part" class="bg-1">
+        <div class="container">
+          <h2 class="text-center">Be a part of us</h2>
+          <div class="row text-center">
+            <div class="col-sm-4">
+              <div class="thumbnail">
+                <img src="../assets/images/Donate/donate.jpeg" alt="Donate">
+                <p><strong>Donate</strong></p>
+                <p>We rely on the generosity and different types of contributions and in-kind support of people like you to run our projects.</p>
+                <button class="btn" data-toggle="modal" data-target="#myModal">Know More</button>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="thumbnail">
+                <img src="../assets/images/Donate/volunteer.jpeg" alt="Volunteer">
+                <p><strong>Become a Volunteer</strong></p>
+                <p>Volunteering does not require a special degree or prior experience. It is simply a willingness to help.</p>
+                <button class="btn" data-toggle="modal" data-target="#myModal">Know More</button>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="thumbnail">
+                <img src="../assets/images/Donate/support.jpeg" alt="Support">
+                <p><strong>Support Us</strong></p>
+                <p>You can sponsor one or more projects of AIM INDIA FOUNDATION making a regulard/onetime payment. </p>
+                <button class="btn" data-toggle="modal" data-target="#myModal">Know More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- .......................... BE a part end ........................ -->
+
+      <!-- .......................... Our Cause start ...................... -->
+      <div class="container our-causes">
+        <h2 class="text-center">Our Causes</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="environment.html" target="_blank">
+                <img src="../assets/images/Causes/environment.jpeg" alt="Environment" style="width:100%">
+                <div class="caption">
+                  <p>Environment</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="#" target="_blank">
+                <img src="../assets/images/Causes/education.jpeg" alt="Education" style="width:100%">
+                <div class="caption">
+                  <p>Education</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="#" target="_blank">
+                <img src="../assets/images/Causes/health care.jpeg" alt="Health Care" style="width:100%">
+                <div class="caption">
+                  <p>Health Care</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="#" target="_blank">
+                <img src="../assets/images/Causes/relief to poor.jpeg" alt="Relief to poor" style="width:100%">
+                <div class="caption">
+                  <p>Relief to poor</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="#" target="_blank">
+                <img src="../assets/images/Causes/women empowerment.jpeg" alt="Women empowerment" style="width:100%">
+                <div class="caption">
+                  <p>Women empowerment</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="#" target="_blank">
+                <img src="../assets/images/Causes/awareness.jpeg" alt="Health Care" style="width:100%">
+                <div class="caption">
+                  <p>Awareness</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ..........................  Our Cause end  ....................... -->
+
+      <!-- .......................... Contact start  ....................... -->
+      <div id="contact" class="container">
+        <h2 class="text-center">Contact</h2>
+        <p class="text-center"><em>Lend a helping hand!</em></p>
+
+        <div class="row">
+          <div class="col-md-4">
+            <p>Want to contribute? Drop a note.</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span>Kolkata, India</p>
+            <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+            <p><span class="glyphicon glyphicon-envelope"></span>Email: aimindiafoundation@gmail.com</p>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+              </div>
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+              </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+            <br>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <button class="btn pull-right" type="submit">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+      <!-- .......................... Contact end  ....................... -->
+
+    </main>
+    <!-- .......................... Main end ............................... -->
+
+
+
+
+    <!-- .......................... Footer start ........................... -->
+    <footer class="container-fluid text-center">
+      <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="To top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a><br><br>
+      <div class="row">
+
+        <div class="col-md-4">
+          <h4>AIM INDIA FOUNDATION</h4>
+          <p>Aim India Foundation is a non-profit organisation formed by a
+            group of development professionals working in West Bengal in India.
+            The group is registered as a non-governmental organisation to
+            better pursue its agenda of working towards providing opportunities
+            and enabling conditions for the underprivileged people of India
+            for better quality of life.</p>
+        </div>
+
+        <div class="col-md-4">
+          <h4>Useful links</h4>
+          <ul>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Terms of use</a></li>
+            <li><a href="#">Become a volunteer</a></li>
+            <li><a href="#">Donate</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h4>Contact</h4>
+          <p>41 Ballygaunge Terrace,<br>Kolkata 700029, India</p>
+          <p>aimindiafoundation@gmail.com</p>
+          <form class="form-inline" action="/action_page.php">
+            <div class="form-group">
+              <label class="sr-only" for="email">Email address:</label>
+              <input type="email" class="form-control" id="email" placeholder="Your email" name="email">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+
+      </div>
+    </footer>
+    <!-- ............................ Footer end ............................. -->
+
+    <script>
+    $(document).ready(function(){
+      // Initialize Tooltip
+      $('[data-toggle="tooltip"]').tooltip();
+
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    })
+    </script>
+
+  </body>
+
 </html>
