@@ -323,24 +323,28 @@
             <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
             <p><span class="glyphicon glyphicon-envelope"></span>Email: aimindiafoundation@gmail.com</p>
           </div>
+        
+          <form action="RequestPage" method="post">
           <div class="col-md-8">
             <div class="row">
               <div class="col-sm-6 form-group">
-                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                <input class="form-control"  name="name" placeholder="Name" type="text" required="">
               </div>
               <div class="col-sm-6 form-group">
-                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                <input class="form-control"  name="email" placeholder="Email" type="email" required="">
               </div>
             </div>
-            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+            <textarea class="form-control" name="body" placeholder="Comment" rows="5"  required=""></textarea>
             <br>
             <div class="row">
               <div class="col-md-12 form-group">
                 <button class="btn pull-right" type="submit">Send</button>
-              </div>
             </div>
           </div>
+          
         </div>
+        </form>
+       
         <br>
       </div>
       <!-- .......................... Contact end  ....................... -->
@@ -383,7 +387,7 @@
           <h4>Contact</h4>
           <p>41 Ballygaunge Terrace,<br>Kolkata 700029, India</p>
           <p>aimindiafoundation@gmail.com</p>
-          <form class="form-inline" action="/action_page.php">
+          <form class="form-inline" action=emil method="post">
             <div class="form-group">
               <label class="sr-only" for="email">Email address:</label>
               <input type="email" class="form-control" id="email" placeholder="Your email" name="email">
